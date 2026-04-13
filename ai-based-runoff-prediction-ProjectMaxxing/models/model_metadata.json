@@ -1,0 +1,65 @@
+{
+  "updated_at": "2026-04-10T20:36:29.163860+00:00",
+  "dataset_path": "D:\\Project\\ai-based-runoff-prediction\\datasets\\Kasol.xlsx",
+  "target_column": "Discharge (CUMEC)",
+  "forecast_horizon_days": 3,
+  "target_mode": "delta_from_lag1",
+  "target_base_feature": "lag_discharge_1",
+  "split": {
+    "strategy": "year_boundary",
+    "train_end_year": 2000,
+    "test_start_year": 2006,
+    "train_rows": 8036,
+    "test_rows": 1458,
+    "train_year_max": 2000,
+    "test_year_min": 2006
+  },
+  "feature_columns": [
+    "Mean_PCP",
+    "Mean_Tmax",
+    "Mean_Tmin",
+    "rh",
+    "solar",
+    "wind",
+    "lag_discharge_1",
+    "lag_discharge_2",
+    "lag_discharge_3",
+    "discharge_roll_mean_3",
+    "discharge_roll_std_3",
+    "PCP_roll_mean_3",
+    "PCP_roll_sum_7",
+    "season_sin",
+    "season_cos"
+  ],
+  "lstm_target_transform": "none",
+  "target_delta_stats": {
+    "train_mean": -0.015219014435041823,
+    "train_std": 152.88201074569207,
+    "train_min": -1757.4999999999998,
+    "train_max": 1508.2
+  },
+  "metrics": {
+    "random_forest": {
+      "rmse": 126.9933124197893,
+      "mae": 64.6741927075931,
+      "r2": 0.8611763823927809,
+      "nse": 0.8611763823927809
+    },
+    "lstm": {
+      "rmse": 138.00440971059626,
+      "mae": 68.22831831523604,
+      "r2": 0.836058998935574,
+      "nse": 0.836058998935574
+    }
+  },
+  "random_forest": {
+    "best_params": {
+      "n_estimators": 900,
+      "min_samples_split": 4,
+      "min_samples_leaf": 1,
+      "max_features": "sqrt",
+      "max_depth": 10,
+      "cv_score_rmse": 130.4010157627525
+    }
+  }
+}

@@ -1,0 +1,284 @@
+{
+  "best_model": {
+    "model_name": "extra_trees_log1p",
+    "updated_at": "2026-03-05T18:25:04.986337Z",
+    "artifact_path": "D:/Project/ai-based-runoff-prediction/backend/models/best_extra_trees_log1p.joblib",
+    "best_params": {
+      "n_estimators": 600,
+      "min_samples_split": 10,
+      "min_samples_leaf": 1,
+      "max_features": 1.0,
+      "max_depth": 14
+    },
+    "cv_score_rmse": 0.08764322734579917,
+    "target_transform": "log1p",
+    "feature_cols": [
+      "Mean_PCP",
+      "Mean_Tmax",
+      "Mean_Tmin",
+      "rh",
+      "solar",
+      "wind",
+      "lag_discharge_1",
+      "lag_discharge_2",
+      "lag_discharge_3",
+      "season_sin",
+      "season_cos",
+      "discharge_roll_mean_3",
+      "discharge_roll_std_3",
+      "PCP_roll_mean_3",
+      "PCP_roll_sum_7"
+    ],
+    "target_col": "Discharge (CUMEC)",
+    "final_metrics": {
+      "rmse": 5730568.712955039,
+      "mae": 2426314.2595364153,
+      "r2": 0.9621014513584573,
+      "nse": 0.9621014513584573
+    }
+  },
+  "all_models": [
+    {
+      "model_name": "xgboost",
+      "rmse": 19666730.62552167,
+      "mae": 11841923.0,
+      "r2": 0.5536336898803711,
+      "nse": 0.5536336213778277,
+      "cv_score_rmse": 16730149.333333334,
+      "best_params": {
+        "subsample": 0.7,
+        "n_estimators": 400,
+        "max_depth": 5,
+        "learning_rate": 0.01
+      }
+    },
+    {
+      "model_name": "random_forest",
+      "rmse": 19928056.88170668,
+      "mae": 11621383.71240235,
+      "r2": 0.5416924220370978,
+      "nse": 0.5416924220370978,
+      "cv_score_rmse": 17250584.40818221,
+      "best_params": {
+        "n_estimators": 300,
+        "min_samples_split": 10,
+        "max_depth": 12
+      }
+    }
+  ],
+  "artifact_path": "models/best_xgboost.json",
+  "model_comparison_rmse": [
+    {
+      "model_name": "extra_trees_log1p",
+      "rmse": 5730568.712955039,
+      "mae": 2426314.2595364153,
+      "r2": 0.9621014513584573,
+      "nse": 0.9621014513584573,
+      "cv_score_rmse": 0.08764322734579917,
+      "best_params": {
+        "n_estimators": 600,
+        "min_samples_split": 10,
+        "min_samples_leaf": 1,
+        "max_features": 1.0,
+        "max_depth": 14
+      },
+      "target_transform": "log1p",
+      "feature_cols": [
+        "Mean_PCP",
+        "Mean_Tmax",
+        "Mean_Tmin",
+        "rh",
+        "solar",
+        "wind",
+        "lag_discharge_1",
+        "lag_discharge_2",
+        "lag_discharge_3",
+        "season_sin",
+        "season_cos",
+        "discharge_roll_mean_3",
+        "discharge_roll_std_3",
+        "PCP_roll_mean_3",
+        "PCP_roll_sum_7"
+      ],
+      "target_col": "Discharge (CUMEC)"
+    },
+    {
+      "model_name": "random_forest_log1p",
+      "rmse": 5778805.945011467,
+      "mae": 2454636.8766371715,
+      "r2": 0.9614607417503535,
+      "nse": 0.9614607417503535,
+      "cv_score_rmse": 0.08741308801389767,
+      "best_params": {
+        "n_estimators": 300,
+        "min_samples_split": 5,
+        "min_samples_leaf": 2,
+        "max_features": 1.0,
+        "max_depth": 14
+      },
+      "target_transform": "log1p",
+      "feature_cols": [
+        "Mean_PCP",
+        "Mean_Tmax",
+        "Mean_Tmin",
+        "rh",
+        "solar",
+        "wind",
+        "lag_discharge_1",
+        "lag_discharge_2",
+        "lag_discharge_3",
+        "season_sin",
+        "season_cos",
+        "discharge_roll_mean_3",
+        "discharge_roll_std_3",
+        "PCP_roll_mean_3",
+        "PCP_roll_sum_7"
+      ],
+      "target_col": "Discharge (CUMEC)"
+    },
+    {
+      "model_name": "random_forest",
+      "rmse": 5800842.424121018,
+      "mae": 2482594.299794661,
+      "r2": 0.9611662557133218,
+      "nse": 0.9611662557133218,
+      "cv_score_rmse": 7367117.794331984,
+      "best_params": {
+        "n_estimators": 1200,
+        "min_samples_split": 2,
+        "min_samples_leaf": 1,
+        "max_features": 1.0,
+        "max_depth": null
+      },
+      "target_transform": "none",
+      "feature_cols": [
+        "Mean_PCP",
+        "Mean_Tmax",
+        "Mean_Tmin",
+        "rh",
+        "solar",
+        "wind",
+        "lag_discharge_1",
+        "lag_discharge_2",
+        "lag_discharge_3",
+        "season_sin",
+        "season_cos",
+        "discharge_roll_mean_3",
+        "discharge_roll_std_3",
+        "PCP_roll_mean_3",
+        "PCP_roll_sum_7"
+      ],
+      "target_col": "Discharge (CUMEC)"
+    },
+    {
+      "model_name": "xgboost_log1p",
+      "rmse": 5821392.537361486,
+      "mae": 2504115.0,
+      "r2": 0.9608906507492065,
+      "nse": 0.9608906209505638,
+      "cv_score_rmse": 0.08638985412715605,
+      "best_params": {
+        "subsample": 0.85,
+        "reg_lambda": 5.0,
+        "reg_alpha": 0.0,
+        "n_estimators": 500,
+        "min_child_weight": 5,
+        "max_depth": 5,
+        "learning_rate": 0.03,
+        "gamma": 0.1,
+        "colsample_bytree": 1.0
+      },
+      "target_transform": "log1p",
+      "feature_cols": [
+        "Mean_PCP",
+        "Mean_Tmax",
+        "Mean_Tmin",
+        "rh",
+        "solar",
+        "wind",
+        "lag_discharge_1",
+        "lag_discharge_2",
+        "lag_discharge_3",
+        "season_sin",
+        "season_cos",
+        "discharge_roll_mean_3",
+        "discharge_roll_std_3",
+        "PCP_roll_mean_3",
+        "PCP_roll_sum_7"
+      ],
+      "target_col": "Discharge (CUMEC)"
+    },
+    {
+      "model_name": "extra_trees",
+      "rmse": 5830541.33695978,
+      "mae": 2486981.3029343737,
+      "r2": 0.9607675990141085,
+      "nse": 0.9607675990141085,
+      "cv_score_rmse": 7309781.4089538315,
+      "best_params": {
+        "n_estimators": 600,
+        "min_samples_split": 10,
+        "min_samples_leaf": 1,
+        "max_features": 1.0,
+        "max_depth": 14
+      },
+      "target_transform": "none",
+      "feature_cols": [
+        "Mean_PCP",
+        "Mean_Tmax",
+        "Mean_Tmin",
+        "rh",
+        "solar",
+        "wind",
+        "lag_discharge_1",
+        "lag_discharge_2",
+        "lag_discharge_3",
+        "season_sin",
+        "season_cos",
+        "discharge_roll_mean_3",
+        "discharge_roll_std_3",
+        "PCP_roll_mean_3",
+        "PCP_roll_sum_7"
+      ],
+      "target_col": "Discharge (CUMEC)"
+    },
+    {
+      "model_name": "xgboost",
+      "rmse": 5945720.36011651,
+      "mae": 2610939.5,
+      "r2": 0.9592022895812988,
+      "nse": 0.9592022576322979,
+      "cv_score_rmse": 7166010.144307644,
+      "best_params": {
+        "subsample": 0.7,
+        "reg_lambda": 5.0,
+        "reg_alpha": 0.1,
+        "n_estimators": 300,
+        "min_child_weight": 5,
+        "max_depth": 5,
+        "learning_rate": 0.03,
+        "gamma": 0.3,
+        "colsample_bytree": 1.0
+      },
+      "target_transform": "none",
+      "feature_cols": [
+        "Mean_PCP",
+        "Mean_Tmax",
+        "Mean_Tmin",
+        "rh",
+        "solar",
+        "wind",
+        "lag_discharge_1",
+        "lag_discharge_2",
+        "lag_discharge_3",
+        "season_sin",
+        "season_cos",
+        "discharge_roll_mean_3",
+        "discharge_roll_std_3",
+        "PCP_roll_mean_3",
+        "PCP_roll_sum_7"
+      ],
+      "target_col": "Discharge (CUMEC)"
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+2026-02-26 19:33:09 | INFO | app.main | GET /health completed in 3.50ms
+2026-02-26 19:33:09 | INFO | app.main | GET /metrics/latest completed in 3.11ms
+2026-02-26 19:33:09 | INFO | app.services.prediction_service | Prediction request received | feature_count=8
+2026-02-26 19:33:09 | INFO | app.main | POST /predict completed in 3.60ms
+2026-02-26 19:33:09 | INFO | app.services.training_service | Training started | train_end_year=2000 test_start_year=2006 search_type=randomized n_iter=20
+2026-02-26 19:33:09 | INFO | app.main | POST /train/auto completed in 30.11ms
+2026-02-26 19:46:36 | INFO | app.main | GET /health completed in 2.67ms
+2026-02-26 19:46:38 | INFO | app.main | GET /openapi.json completed in 27.61ms
+2026-02-26 19:46:51 | INFO | app.main | GET /health completed in 1.71ms
+2026-02-26 19:47:01 | INFO | app.main | GET /metrics/latest completed in 4.35ms
+2026-02-26 19:47:39 | INFO | app.main | GET /health completed in 2.41ms
+2026-02-26 19:47:41 | INFO | app.main | GET /metrics/latest completed in 1.80ms
+2026-02-26 19:47:43 | INFO | app.services.prediction_service | Prediction request received | feature_count=8
+2026-02-26 19:47:43 | INFO | app.main | POST /predict completed in 7.58ms
+2026-02-26 19:50:55 | INFO | app.main | GET /health completed in 3.07ms
+2026-02-26 19:50:57 | INFO | app.main | GET /openapi.json completed in 15.14ms
+2026-02-26 19:51:12 | INFO | app.main | GET /health completed in 2.04ms
+2026-02-26 19:51:14 | INFO | app.main | GET /metrics/latest completed in 4.09ms
+2026-02-26 19:51:53 | INFO | app.services.training_service | Training started | train_end_year=2000 test_start_year=2006 search_type=randomized n_iter=20
+2026-02-26 19:51:53 | INFO | app.main | POST /train/auto completed in 31.59ms
+2026-02-26 19:52:10 | INFO | app.services.training_service | Training started | train_end_year=2000 test_start_year=2006 search_type=randomized n_iter=20
+2026-02-26 19:52:10 | INFO | app.main | POST /train/auto completed in 26.64ms
+2026-02-26 19:52:40 | INFO | app.services.training_service | Training started | train_end_year=2000 test_start_year=2006 search_type=randomized n_iter=20
+2026-02-26 19:52:40 | INFO | app.main | POST /train/auto completed in 28.02ms
+2026-02-26 20:02:51 | INFO | app.services.training_service | Training started | train_end_year=2000 test_start_year=2006 search_type=randomized n_iter=20
+2026-02-26 20:03:00 | INFO | app.main | POST /train/auto completed in 9177.19ms
+2026-02-26 20:04:45 | INFO | app.services.training_service | Training started | train_end_year=2000 test_start_year=2006 search_type=randomized n_iter=20
+2026-02-26 20:04:50 | INFO | app.main | POST /train/auto completed in 5199.61ms
+2026-02-26 20:16:45 | INFO | app.services.training_service | Training started | train_end_year=2000 test_start_year=2006 search_type=randomized n_iter=20
+2026-02-26 20:18:52 | INFO | app.services.training_service | Best model selected | {'model_name': 'xgboost', 'rmse': 19666730.62552167, 'mae': 11841923.0, 'r2': 0.5536336898803711, 'nse': 0.5536336213778277, 'cv_score_rmse': 16730149.333333334, 'best_params': {'subsample': 0.7, 'n_estimators': 400, 'max_depth': 5, 'learning_rate': 0.01}}
+2026-02-26 20:18:52 | INFO | app.main | POST /train/auto completed in 127180.55ms
+2026-02-26 20:38:49 | INFO | app.services.training_service | Training started | train_end_year=2000 test_start_year=2006 search_type=randomized n_iter=20
+2026-02-26 20:40:36 | INFO | app.main | GET /health completed in 14.00ms
+2026-02-26 20:40:42 | INFO | app.main | GET /health completed in 57.22ms
+2026-02-26 20:40:44 | INFO | app.main | GET /health completed in 13.72ms
+2026-02-26 20:40:46 | INFO | app.main | GET /health completed in 2.51ms
+2026-02-26 20:41:01 | INFO | app.services.training_service | Best model selected | {'model_name': 'xgboost', 'rmse': 19666730.62552167, 'mae': 11841923.0, 'r2': 0.5536336898803711, 'nse': 0.5536336213778277, 'cv_score_rmse': 16730149.333333334, 'best_params': {'subsample': 0.7, 'n_estimators': 400, 'max_depth': 5, 'learning_rate': 0.01}}
+2026-02-26 20:41:01 | INFO | app.main | POST /train/auto completed in 131535.51ms
+2026-02-26 20:41:09 | INFO | app.services.training_service | Training started | train_end_year=2000 test_start_year=2006 search_type=randomized n_iter=20
+2026-02-26 20:41:09 | INFO | app.main | POST /train/auto completed in 283.60ms
+2026-02-26 20:41:11 | INFO | app.services.training_service | Training started | train_end_year=2000 test_start_year=2006 search_type=randomized n_iter=20
+2026-02-26 20:42:33 | INFO | app.services.training_service | Training started | train_end_year=2000 test_start_year=2006 search_type=randomized n_iter=1
+2026-02-26 20:43:05 | INFO | app.services.training_service | Best model selected | {'model_name': 'xgboost', 'rmse': 19666730.62552167, 'mae': 11841923.0, 'r2': 0.5536336898803711, 'nse': 0.5536336213778277, 'cv_score_rmse': 16730149.333333334, 'best_params': {'subsample': 0.7, 'n_estimators': 400, 'max_depth': 5, 'learning_rate': 0.01}}
+2026-02-26 20:43:05 | INFO | app.main | POST /train/auto completed in 114017.38ms
+2026-02-26 20:43:05 | INFO | app.services.training_service | Best model selected | {'model_name': 'random_forest', 'rmse': 19967517.463972904, 'mae': 11642490.545110153, 'r2': 0.5398755876514202, 'nse': 0.5398755876514202, 'cv_score_rmse': 17313103.933237217, 'best_params': {'n_estimators': 800, 'min_samples_split': 2, 'max_depth': 12}}
+2026-02-26 20:43:05 | INFO | app.main | POST /train/auto completed in 31719.43ms
+2026-02-26 20:43:07 | INFO | app.services.training_service | Training started | train_end_year=2000 test_start_year=2006 search_type=randomized n_iter=20
+2026-02-26 20:44:55 | INFO | app.services.training_service | Best model selected | {'model_name': 'xgboost', 'rmse': 19666730.62552167, 'mae': 11841923.0, 'r2': 0.5536336898803711, 'nse': 0.5536336213778277, 'cv_score_rmse': 16730149.333333334, 'best_params': {'subsample': 0.7, 'n_estimators': 400, 'max_depth': 5, 'learning_rate': 0.01}}
+2026-02-26 20:44:55 | INFO | app.main | POST /train/auto completed in 107582.68ms
+2026-02-26 21:11:39 | INFO | app.services.training_service | Training started | train_end_year=2000 test_start_year=2006 search_type=randomized n_iter=20
+2026-02-26 21:13:32 | INFO | app.services.training_service | Best model selected | {'model_name': 'xgboost', 'rmse': 19666730.62552167, 'mae': 11841923.0, 'r2': 0.5536336898803711, 'nse': 0.5536336213778277, 'cv_score_rmse': 16730149.333333334, 'best_params': {'subsample': 0.7, 'n_estimators': 400, 'max_depth': 5, 'learning_rate': 0.01}}
+2026-02-26 21:13:32 | INFO | app.main | POST /train/auto completed in 112577.43ms
+2026-02-26 21:16:13 | INFO | app.services.training_service | Training started | train_end_year=2000 test_start_year=2006 search_type=randomized n_iter=20
+2026-02-26 21:18:03 | INFO | app.services.training_service | Best model selected | {'model_name': 'xgboost', 'rmse': 19666730.62552167, 'mae': 11841923.0, 'r2': 0.5536336898803711, 'nse': 0.5536336213778277, 'cv_score_rmse': 16730149.333333334, 'best_params': {'subsample': 0.7, 'n_estimators': 400, 'max_depth': 5, 'learning_rate': 0.01}}
+2026-02-26 21:18:08 | INFO | app.services.training_service | Training completed
+2026-02-26 21:18:08 | INFO | app.main | POST /train/auto completed in 115595.08ms
+2026-02-26 21:18:23 | INFO | app.main | GET /metrics/latest completed in 3.28ms
+2026-02-26 21:18:26 | INFO | app.services.prediction_service | Prediction request received | feature_count=8
+2026-02-26 21:18:26 | INFO | app.main | POST /predict completed in 9.21ms
+2026-02-26 21:19:23 | INFO | app.services.training_service | Training started | train_end_year=2000 test_start_year=2006 search_type=randomized n_iter=20
+2026-02-26 21:21:08 | INFO | app.services.training_service | Best model selected | {'model_name': 'xgboost', 'rmse': 19666730.62552167, 'mae': 11841923.0, 'r2': 0.5536336898803711, 'nse': 0.5536336213778277, 'cv_score_rmse': 16730149.333333334, 'best_params': {'subsample': 0.7, 'n_estimators': 400, 'max_depth': 5, 'learning_rate': 0.01}}
+2026-02-26 21:21:13 | INFO | app.services.training_service | Training completed
+2026-02-26 21:21:13 | INFO | app.main | POST /train/auto completed in 110681.03ms
+2026-02-26 21:22:52 | INFO | app.services.prediction_service | Prediction request received | feature_count=8
+2026-02-26 21:22:52 | INFO | app.main | POST /predict completed in 111.22ms
+2026-02-26 22:41:03 | INFO | app.services.prediction_service | Prediction request received | feature_count=8
+2026-02-26 22:41:03 | INFO | app.main | POST /predict completed in 109.05ms
+2026-02-26 22:41:03 | INFO | app.services.prediction_service | Prediction request received | feature_count=8
+2026-02-26 22:41:03 | INFO | app.main | POST /predict completed in 105.72ms
+2026-02-26 22:41:19 | INFO | app.services.prediction_service | Prediction request received | feature_count=9
+2026-02-26 22:41:19 | INFO | app.main | POST /predict completed in 109.21ms
+2026-02-26 22:57:15 | INFO | app.main | GET /health completed in 5.27ms
+2026-02-26 22:57:17 | INFO | app.main | GET /openapi.json completed in 72.82ms
+2026-02-26 22:57:32 | INFO | app.main | GET /health completed in 2.41ms
+2026-02-26 22:57:37 | INFO | app.main | GET /metrics/latest completed in 5.46ms
+2026-02-26 23:02:09 | INFO | app.services.training_service | Training started | train_end_year=2000 test_start_year=2006 search_type=randomized n_iter=20
+2026-02-26 23:03:55 | INFO | app.services.training_service | Best model selected | {'model_name': 'xgboost', 'rmse': 19666730.62552167, 'mae': 11841923.0, 'r2': 0.5536336898803711, 'nse': 0.5536336213778277, 'cv_score_rmse': 16730149.333333334, 'best_params': {'subsample': 0.7, 'n_estimators': 400, 'max_depth': 5, 'learning_rate': 0.01}}
+2026-02-26 23:04:02 | INFO | app.services.training_service | Training completed
+2026-02-26 23:04:02 | INFO | app.main | POST /train/auto completed in 113312.62ms
+2026-02-26 23:04:37 | INFO | app.main | GET /health completed in 3.13ms
+2026-02-26 23:04:39 | INFO | app.main | GET /metrics/latest completed in 3.31ms
+2026-02-26 23:06:14 | INFO | app.services.prediction_service | Prediction request received | feature_count=9
+2026-02-26 23:06:15 | INFO | app.main | POST /predict completed in 144.75ms
+2026-02-26 23:07:17 | INFO | app.services.prediction_service | Prediction request received | feature_count=9
+2026-02-26 23:07:17 | INFO | app.main | POST /predict completed in 112.37ms
+2026-02-26 23:07:19 | INFO | app.services.prediction_service | Prediction request received | feature_count=9
+2026-02-26 23:07:19 | INFO | app.main | POST /predict completed in 135.14ms
+2026-02-26 23:07:21 | INFO | app.services.prediction_service | Prediction request received | feature_count=9
+2026-02-26 23:07:21 | INFO | app.main | POST /predict completed in 140.97ms
+2026-02-26 23:08:00 | INFO | app.main | GET /health completed in 2.92ms
+2026-02-26 23:08:02 | INFO | app.main | GET /metrics/latest completed in 3.46ms
+2026-02-27 00:47:58 | INFO | app.main | GET /health completed in 8.38ms
+2026-02-27 00:56:15 | INFO | app.main | POST /climate/train-engine completed in 484762.72ms
+2026-02-27 00:56:24 | INFO | app.main | POST /predict-realtime completed in 176.56ms
+2026-02-27 00:59:33 | INFO | app.main | POST /predict-realtime completed in 91.71ms
+2026-02-27 01:01:19 | INFO | app.main | POST /climate/future-streamflow completed in 1755.75ms
+2026-02-27 01:01:51 | INFO | app.main | POST /predict-realtime completed in 2680.03ms
+2026-02-27 01:02:44 | INFO | app.main | POST /climate/future-streamflow completed in 1315.53ms
+2026-02-27 01:03:29 | INFO | app.main | POST /climate/future-streamflow completed in 1565.95ms
+2026-02-27 01:21:19 | INFO | app.main | POST /predict-realtime completed in 2086.46ms
+2026-02-27 01:21:27 | INFO | app.main | POST /climate/future-streamflow completed in 1871.13ms
+2026-02-27 01:21:45 | INFO | app.main | POST /climate/future-streamflow completed in 2231.29ms
+2026-02-27 01:27:32 | INFO | app.services.climate_engine_service | Generated synthetic CMIP6 file: C:\Users\shivr\Documents\GitHub\ai-based-runoff-prediction\backend\climate\cmip6_ssp245_gcm_1.csv
+2026-02-27 01:27:34 | INFO | app.services.climate_engine_service | Generated synthetic CMIP6 file: C:\Users\shivr\Documents\GitHub\ai-based-runoff-prediction\backend\climate\cmip6_ssp245_gcm_2.csv
+2026-02-27 01:27:38 | INFO | app.services.climate_engine_service | Generated synthetic CMIP6 file: C:\Users\shivr\Documents\GitHub\ai-based-runoff-prediction\backend\climate\cmip6_ssp245_gcm_3.csv
+2026-02-27 01:27:41 | INFO | app.services.climate_engine_service | Generated synthetic CMIP6 file: C:\Users\shivr\Documents\GitHub\ai-based-runoff-prediction\backend\climate\cmip6_ssp245_gcm_4.csv
+2026-02-27 01:27:44 | INFO | app.services.climate_engine_service | Generated synthetic CMIP6 file: C:\Users\shivr\Documents\GitHub\ai-based-runoff-prediction\backend\climate\cmip6_ssp245_gcm_5.csv
+2026-02-27 01:27:46 | INFO | app.services.climate_engine_service | Generated synthetic CMIP6 file: C:\Users\shivr\Documents\GitHub\ai-based-runoff-prediction\backend\climate\cmip6_ssp245_gcm_6.csv
+2026-02-27 01:27:47 | INFO | app.main | POST /climate/future-streamflow completed in 21446.19ms
+2026-02-27 01:27:59 | INFO | app.main | POST /predict-realtime completed in 1866.32ms
+2026-02-27 01:34:07 | INFO | app.main | POST /climate/train-engine completed in 359065.95ms
+2026-02-27 01:34:24 | INFO | app.main | GET /health completed in 5.43ms
+2026-02-27 01:40:28 | INFO | app.main | POST /predict-realtime completed in 5036.54ms
+2026-02-27 01:40:33 | INFO | app.main | POST /climate/future-streamflow completed in 8069.67ms
+2026-02-27 01:40:34 | INFO | app.main | GET /health completed in 3.62ms
+2026-02-27 01:40:49 | INFO | app.main | GET /health completed in 5.76ms
+2026-02-27 01:46:13 | INFO | app.main | POST /climate/train-engine completed in 701768.29ms

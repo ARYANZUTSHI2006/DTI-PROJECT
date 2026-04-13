@@ -1,0 +1,24 @@
+2026-02-26 19:28:40 | INFO | app.main | GET /health completed in 3.25ms
+2026-02-26 19:28:40 | INFO | app.main | GET /metrics/latest completed in 2.06ms
+2026-02-26 19:28:40 | INFO | app.services.prediction_service | Prediction request received | feature_count=8
+2026-02-26 19:28:40 | INFO | app.main | POST /predict completed in 3.29ms
+2026-02-26 19:28:40 | INFO | app.services.training_service | Training started | train_end_year=2000 test_start_year=2006 search_type=randomized n_iter=20
+2026-02-26 19:28:40 | INFO | app.main | POST /train/auto completed in 4.72ms
+2026-02-26 19:29:37 | INFO | app.main | GET /health completed in 2.87ms
+2026-02-26 19:29:37 | INFO | app.main | GET /metrics/latest completed in 1.32ms
+2026-02-26 19:29:37 | INFO | app.services.prediction_service | Prediction request received | feature_count=8
+2026-02-26 19:29:37 | INFO | app.main | POST /predict completed in 2.48ms
+2026-02-26 19:29:37 | INFO | app.services.training_service | Training started | train_end_year=2000 test_start_year=2006 search_type=randomized n_iter=20
+2026-02-26 19:29:37 | INFO | app.main | POST /train/auto completed in 2.49ms
+2026-02-26 19:32:00 | INFO | app.main | GET /openapi.json completed in 24.59ms
+2026-02-26 19:32:24 | INFO | app.main | GET /health completed in 2.43ms
+2026-02-26 19:32:24 | INFO | app.main | GET /metrics/latest completed in 2.45ms
+2026-02-26 19:32:24 | INFO | app.services.prediction_service | Prediction request received | feature_count=8
+2026-02-26 19:32:24 | INFO | app.main | POST /predict completed in 4.36ms
+2026-02-26 19:32:24 | INFO | app.services.training_service | Training started | train_end_year=2000 test_start_year=2006 search_type=randomized n_iter=20
+2026-02-26 19:32:24 | INFO | app.main | POST /train/auto completed in 4.01ms
+2026-02-26 19:45:10 | INFO | app.main | GET /health completed in 2.62ms
+2026-02-26 19:45:34 | INFO | app.main | GET /health completed in 2.84ms
+2026-02-26 19:45:40 | INFO | app.main | GET /metrics/latest completed in 2.40ms
+2026-02-26 20:51:19 | INFO | app.main | OPTIONS /auth/login completed in 15.83ms
+2026-02-26 20:51:19 | INFO | app.main | POST /auth/login completed in 21.64ms
